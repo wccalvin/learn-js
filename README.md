@@ -8,4 +8,12 @@ npm install eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
 
-Choose `airbnb` style.
+* Choose `airbnb` style.
+
+* Add the following rules to `.eslintrc`
+
+```json
+"rules": {
+    "no-console": "off"
+}
+```
